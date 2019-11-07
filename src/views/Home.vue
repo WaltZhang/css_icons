@@ -6,6 +6,12 @@
     <div><play-button /></div>
     <div><floating-button /></div>
     <div><progress-bar /></div>
+    <div><badge /></div>
+    <div><land-mark /></div>
+    <div><heart /></div>
+    <div><mail></mail></div>
+    <div><calendar></calendar></div>
+    <div><vue /></div>
   </div>
 </template>
 
@@ -17,6 +23,12 @@ import TeacupLoading from "@/components/TeacupLoading.vue";
 import PlayButton from "@/components/PlayButton.vue";
 import FloatingButton from "@/components/FloatingButton.vue";
 import ProgressBar from "@/components/ProgressBar.vue";
+import Badge from "@/components/Badge.vue";
+import LandMark from "@/components/LandMark.vue";
+import Heart from "@/components/Heart.vue";
+import Mail from "@/components/Mail.vue";
+import Calendar from "@/components/Calendar.vue";
+import Vue from "@/components/Vue.vue";
 
 export default {
   name: "home",
@@ -27,6 +39,12 @@ export default {
     PlayButton,
     FloatingButton,
     ProgressBar,
+    Badge,
+    LandMark,
+    Heart,
+    Mail,
+    Calendar,
+    Vue,
   }
 };
 </script>
@@ -44,6 +62,6 @@ export default {
 }
 
 .home > div {
-  transform: scale(1.5);
+  transform: scale(5);
 }
 </style>
